@@ -149,6 +149,7 @@ Watch out when using this type of volume, because:
   either need to run your process as root in a
   [privileged container](/docs/user-guide/security-context) or modify the file
   permissions on the host to be able to write to a `hostPath` volume
+* It supports only absolute path as a value
 
 #### Example pod
 
